@@ -61,7 +61,6 @@ export const langToName: any = {
 export const reactionToLang: any = {
   ac: "en",
   ag: "en",
-  ai: "en",
   ao: "pt",
   ar: "es",
   as: "en",
