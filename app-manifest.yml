@@ -28,12 +28,12 @@ oauth_config:
       - reactions:read
 settings:
   event_subscriptions:
-    request_url: https://change-this-later.example.com/slack/events
+    request_url: https://slack-translator-test-5281b58723d2.herokuapp.com/slack/events
     bot_events:
       - reaction_added
   interactivity:
     is_enabled: true
-    request_url: https://change-this-later.example.com/slack/events
+    request_url: https://slack-translator-test-5281b58723d2.herokuapp.com/slack/events
   org_deploy_enabled: false
   socket_mode_enabled: false
 
