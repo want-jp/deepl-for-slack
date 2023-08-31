@@ -31,7 +31,7 @@ export function buildNewModal(lang: string): View {
     callback_id: "run-translation",
     title: {
       type: "plain_text",
-      text: "DeepL API Runner :books:",
+      text: "Translate via DeepL API",
     },
     submit: {
       type: "plain_text",
@@ -89,7 +89,7 @@ export function buildLoadingView(lang: string, text: string): View {
     type: "modal",
     title: {
       type: "plain_text",
-      text: "DeepL API Runner :books:",
+      text: "Translate via DeepL API",
     },
     blocks: [
       {
@@ -123,7 +123,7 @@ export function buildResultView(
     callback_id: "new-runner",
     title: {
       type: "plain_text",
-      text: "DeepL API Runner :books:",
+      text: "Translate via DeepL API",
     },
     submit: {
       type: "plain_text",
